@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+}
+
+label, input {
+    display: block;
+    margin: 5px auto;
+}
+
+table {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 100%;
+}
