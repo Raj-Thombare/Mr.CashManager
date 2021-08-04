@@ -8,11 +8,5 @@ label, input {
 }
 
 table {
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    flex-basis: 100%;
+    margin: 20px auto;
 }
