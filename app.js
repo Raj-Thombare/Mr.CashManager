@@ -29,10 +29,9 @@ function getBillAmountAndCashGiven() {
 }
 
 function calculateNotes(cashToBeReturned){
-    console.log(cashToBeReturned)
-    for(var i=0;i<notes.length;i++){ 
-        let NoOfNotes = Math.trunc(cashToBeReturned / notes[i]);
+    for(let i=0; i<notes.length; i++){ 
+        let noOfNotes = Math.trunc(cashToBeReturned / notes[i]);
         cashToBeReturned = cashToBeReturned % notes[i];
-        numberOfNotes[i].innerHTML = NoOfNotes;
+        numberOfNotes[i].innerText = noOfNotes;
     }
 }
