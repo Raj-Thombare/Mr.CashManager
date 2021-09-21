@@ -16,7 +16,7 @@ function checkBtnHandler() {
     let cash = Number(cashGiven.value);
     hideError();
     hideTable();
-    if (cash > 0) {
+    if (bill > 0 && cash > 0) {
         if (cash >= bill) {
             let cashToBeReturned = cash - bill;
             calculateNotes(cashToBeReturned);
